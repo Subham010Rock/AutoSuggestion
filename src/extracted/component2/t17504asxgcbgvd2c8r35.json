@@ -1,0 +1,368 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "CardContent",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiCardContentProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "component",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "RootComponent"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "hdm567lms8eh7v9i0lsi1b"
+      },
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "9uzy61egnb5b8o27eb3jtn"
+      },
+      {
+        "category": "OTHERS",
+        "name": "classes",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Partial<CardContentClasses> & Partial<ClassNameMap<never>>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "xdjzixo2j9d7tycgfup17t"
+      },
+      {
+        "category": "OTHERS",
+        "name": "sx",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "SystemCssProperties<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSPseudoSelectorProps<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "hqz5jeehkos3snm7w3onnm"
+      },
+      {
+        "category": "OTHERS",
+        "name": "className",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "xg3cypzyzqdq19ypdppdw"
+      },
+      {
+        "category": "OTHERS",
+        "name": "style",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSProperties"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "kx4smjr5xosbsnhmi1zycp"
+      }
+    ]
+  },
+  "_id": "t17504asxgcbgvd2c8r35",
+  "$id": "mui_CardContent",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "component",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "RootComponent"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "hdm567lms8eh7v9i0lsi1b"
+    },
+    {
+      "category": "OTHERS",
+      "name": "children",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          },
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "bigint"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "false"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "true"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Iterable<ReactNode>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactPortal"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Promise<AwaitedReactNode>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "9uzy61egnb5b8o27eb3jtn"
+    },
+    {
+      "category": "OTHERS",
+      "name": "classes",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Partial<CardContentClasses> & Partial<ClassNameMap<never>>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "xdjzixo2j9d7tycgfup17t"
+    },
+    {
+      "category": "OTHERS",
+      "name": "sx",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "SystemCssProperties<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSPseudoSelectorProps<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "hqz5jeehkos3snm7w3onnm"
+    },
+    {
+      "category": "OTHERS",
+      "name": "className",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "xg3cypzyzqdq19ypdppdw"
+    },
+    {
+      "category": "OTHERS",
+      "name": "style",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSProperties"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "kx4smjr5xosbsnhmi1zycp"
+    }
+  ]
+}

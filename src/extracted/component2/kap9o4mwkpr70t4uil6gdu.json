@@ -1,0 +1,218 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "Portal",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiPortalProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "5ep80fw6bm4sfoe2bwbx6j"
+      },
+      {
+        "category": "OTHERS",
+        "name": "container",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Element"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "() => Element"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "7viidwzb4kkiuitb1ad77g"
+      },
+      {
+        "category": "OTHERS",
+        "name": "disablePortal",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "bsqp8qqc8d5wy8vkh0bxi"
+      }
+    ]
+  },
+  "_id": "kap9o4mwkpr70t4uil6gdu",
+  "$id": "mui_Portal",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "children",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          },
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "bigint"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "false"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "true"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Iterable<ReactNode>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactPortal"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Promise<AwaitedReactNode>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "5ep80fw6bm4sfoe2bwbx6j"
+    },
+    {
+      "category": "OTHERS",
+      "name": "container",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Element"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "() => Element"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "7viidwzb4kkiuitb1ad77g"
+    },
+    {
+      "category": "OTHERS",
+      "name": "disablePortal",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "bsqp8qqc8d5wy8vkh0bxi"
+    }
+  ]
+}

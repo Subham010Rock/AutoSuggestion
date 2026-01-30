@@ -1,0 +1,18 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "SliderThumb",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiSliderThumbProps"
+      }
+    ],
+    "props": []
+  },
+  "_id": "gbboono55dk93bwjqgsavl",
+  "$id": "mui_SliderThumb",
+  "parentId": null,
+  "propVars": []
+}

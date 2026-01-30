@@ -1,0 +1,18 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "SliderMarkLabel",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiSliderMarkLabelProps"
+      }
+    ],
+    "props": []
+  },
+  "_id": "ltwsznl61hl2fbbn7ne7",
+  "$id": "mui_SliderMarkLabel",
+  "parentId": null,
+  "propVars": []
+}

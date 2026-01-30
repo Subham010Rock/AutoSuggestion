@@ -1,0 +1,460 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "Toolbar",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiToolbarProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "component",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "RootComponent"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "19hxboup4145pmryn0z74c"
+      },
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "0l85971gg1ukb6e4p3ovff"
+      },
+      {
+        "category": "OTHERS",
+        "name": "classes",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Partial<ToolbarClasses> & Partial<ClassNameMap<never>>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "3vdugdg0ry99d5slfbs1s"
+      },
+      {
+        "category": "OTHERS",
+        "name": "disableGutters",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "qafsm4akmqcbqhtwnjtddl"
+      },
+      {
+        "category": "OTHERS",
+        "name": "variant",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"dense\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"regular\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "an3rnbbzns92g9yicp7na5"
+      },
+      {
+        "category": "OTHERS",
+        "name": "sx",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "SystemCssProperties<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSPseudoSelectorProps<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "j8sm8pv2e6clklqzmcyoj"
+      },
+      {
+        "category": "OTHERS",
+        "name": "className",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "qdv7qblvexrny1zchmwimh"
+      },
+      {
+        "category": "OTHERS",
+        "name": "style",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSProperties"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "g2wna635a2894i2asm7lib"
+      }
+    ]
+  },
+  "_id": "wffgmp8fswnlnr418r4lf",
+  "$id": "mui_Toolbar",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "component",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "RootComponent"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "19hxboup4145pmryn0z74c"
+    },
+    {
+      "category": "OTHERS",
+      "name": "children",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          },
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "bigint"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "false"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "true"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Iterable<ReactNode>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactPortal"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Promise<AwaitedReactNode>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "0l85971gg1ukb6e4p3ovff"
+    },
+    {
+      "category": "OTHERS",
+      "name": "classes",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Partial<ToolbarClasses> & Partial<ClassNameMap<never>>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "3vdugdg0ry99d5slfbs1s"
+    },
+    {
+      "category": "OTHERS",
+      "name": "disableGutters",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "qafsm4akmqcbqhtwnjtddl"
+    },
+    {
+      "category": "OTHERS",
+      "name": "variant",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "\"dense\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"regular\""
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "an3rnbbzns92g9yicp7na5"
+    },
+    {
+      "category": "OTHERS",
+      "name": "sx",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "SystemCssProperties<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSPseudoSelectorProps<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "j8sm8pv2e6clklqzmcyoj"
+    },
+    {
+      "category": "OTHERS",
+      "name": "className",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "qdv7qblvexrny1zchmwimh"
+    },
+    {
+      "category": "OTHERS",
+      "name": "style",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSProperties"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "g2wna635a2894i2asm7lib"
+    }
+  ]
+}

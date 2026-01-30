@@ -1,0 +1,1332 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "Overlay",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "OverlayProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "CONTENT_SLOTS",
+        "name": "children",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<OverlayInjectedProps, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(injected: OverlayInjectedProps) => ReactNode"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "9b2a61aa_31a9_4d5f_a7ce_8211a2fbc989"
+      },
+      {
+        "category": "ANIMATIONS_TRANSITIONS",
+        "name": "transition",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ComponentClass<TransitionProps, any>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "FunctionComponent<TransitionProps>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "db3f975d_193f_442b_bdac_67f02597786c"
+      },
+      {
+        "category": "STYLE_LAYOUT",
+        "name": "placement",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"auto\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"top\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"bottom\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"auto-start\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"auto-end\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"right\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"left\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"top-start\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"top-end\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"bottom-start\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"bottom-end\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"right-start\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"right-end\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"left-start\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"left-end\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "7d1695d6_63af_41ec_964b_2620149bc758"
+      },
+      {
+        "category": "OTHERS",
+        "name": "rootCloseEvent",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"click\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"mousedown\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "ff9df674_0705_48df_b714_9c60f721b259"
+      },
+      {
+        "category": "BEHAVIOR_STATE",
+        "name": "show",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "f692e675_e204_40db_9f48_bcabe6874bc5"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEnter",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement, isAppearing: boolean) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "ffc85efd_6a37_4075_8592_91e108e07121"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEntering",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement, isAppearing: boolean) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "402e0fd5_1e31_415d_933f_d03393447b8a"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEntered",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement, isAppearing: boolean) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "b8e5fd04_a1e7_4411_8ebf_f53b240fd9ba"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onExit",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "4420cc6a_82c9_492e_af54_e48a700c61e5"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onExiting",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "23389a84_b22c_4b0d_b1b2_6e33a4b98075"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onExited",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "2a41ae9b_d575_4448_a11e_a050f0e74a87"
+      },
+      {
+        "category": "NAVIGATION_ROUTING",
+        "name": "target",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "HTMLElement"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "VirtualElement"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "RefObject<HTMLElement | VirtualElement>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "() => HTMLElement | VirtualElement | RefObject<HTMLElement | VirtualElement>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "739add5e_4ca7_4565_b54c_bd1c8c7e5cf3"
+      },
+      {
+        "category": "OTHERS",
+        "name": "flip",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "53f48e82_c006_4ab4_9c12_fef99086081b"
+      },
+      {
+        "category": "OTHERS",
+        "name": "popperConfig",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Omit<UsePopperOptions, \"placement\">"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "fb3f8534_bcaf_4e41_b643_a2ef53adfd9a"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "container",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "HTMLElement"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "RefObject<HTMLElement>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "() => HTMLElement | RefObject<HTMLElement>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "e03c4858_3af5_4c3d_9423_a2904a3b21de"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onHide",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(e: Event) => void"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "aaed43c8_8b22_4bca_8d89_d5eedbcbf4ce"
+      },
+      {
+        "category": "OTHERS",
+        "name": "runTransition",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "TransitionHandler"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "43d30eb8_e5c5_41fb_a478_715f01a40432"
+      },
+      {
+        "category": "OTHERS",
+        "name": "offset",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "OffsetFunction"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "OffsetValue"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "3b757c5a_458e_44a3_b3f2_9807db2cec05"
+      },
+      {
+        "category": "OTHERS",
+        "name": "containerPadding",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "0b73f8b3_fce9_476d_9af6_b5eeadafd359"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "rootClose",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "efd5fba3_0c54_4e86_913c_e37a98480001"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "rootCloseDisabled",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "edaa53dd_e71e_4e65_975a_b28be7a87900"
+      }
+    ]
+  },
+  "_id": "05fbc485_a061_4f9d_89eb_eed82d82fc9d",
+  "$id": "react-bootstrap_Overlay",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "CONTENT_SLOTS",
+      "name": "children",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactElement<OverlayInjectedProps, string | JSXElementConstructor<any>>"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(injected: OverlayInjectedProps) => ReactNode",
+            "parameters": [
+              {
+                "name": "injected",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "OverlayInjectedProps"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "9b2a61aa_31a9_4d5f_a7ce_8211a2fbc989"
+    },
+    {
+      "category": "ANIMATIONS_TRANSITIONS",
+      "name": "transition",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "db3f975d_193f_442b_bdac_67f02597786c"
+    },
+    {
+      "category": "STYLE_LAYOUT",
+      "name": "placement",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "LABEL",
+            "value": "auto"
+          },
+          {
+            "type": "LABEL",
+            "value": "top"
+          },
+          {
+            "type": "LABEL",
+            "value": "bottom"
+          },
+          {
+            "type": "LABEL",
+            "value": "top-start"
+          },
+          {
+            "type": "LABEL",
+            "value": "top-end"
+          },
+          {
+            "type": "LABEL",
+            "value": "bottom-start"
+          },
+          {
+            "type": "LABEL",
+            "value": "bottom-end"
+          },
+          {
+            "type": "LABEL",
+            "value": "right-start"
+          },
+          {
+            "type": "LABEL",
+            "value": "right-end"
+          },
+          {
+            "type": "LABEL",
+            "value": "left-start"
+          },
+          {
+            "type": "LABEL",
+            "value": "left-end"
+          },
+          {
+            "type": "LABEL",
+            "value": "auto-start"
+          },
+          {
+            "type": "LABEL",
+            "value": "auto-end"
+          },
+          {
+            "type": "LABEL",
+            "value": "right"
+          },
+          {
+            "type": "LABEL",
+            "value": "left"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "7d1695d6_63af_41ec_964b_2620149bc758"
+    },
+    {
+      "category": "OTHERS",
+      "name": "rootCloseEvent",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "LABEL",
+            "value": "click"
+          },
+          {
+            "type": "LABEL",
+            "value": "mousedown"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "ff9df674_0705_48df_b714_9c60f721b259"
+    },
+    {
+      "category": "BEHAVIOR_STATE",
+      "name": "show",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "f692e675_e204_40db_9f48_bcabe6874bc5"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEnter",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement, isAppearing: boolean) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "isAppearing",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "BOOLEAN"
+                    },
+                    {
+                      "type": "BOOLEAN"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "ffc85efd_6a37_4075_8592_91e108e07121"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEntering",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement, isAppearing: boolean) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "isAppearing",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "BOOLEAN"
+                    },
+                    {
+                      "type": "BOOLEAN"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "402e0fd5_1e31_415d_933f_d03393447b8a"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEntered",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement, isAppearing: boolean) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "isAppearing",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "BOOLEAN"
+                    },
+                    {
+                      "type": "BOOLEAN"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "b8e5fd04_a1e7_4411_8ebf_f53b240fd9ba"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onExit",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "4420cc6a_82c9_492e_af54_e48a700c61e5"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onExiting",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "23389a84_b22c_4b0d_b1b2_6e33a4b98075"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onExited",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "2a41ae9b_d575_4448_a11e_a050f0e74a87"
+    },
+    {
+      "category": "NAVIGATION_ROUTING",
+      "name": "target",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "NULL"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "HTMLElement"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "VirtualElement"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "RefObject<HTMLElement | VirtualElement | null>"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "() => HTMLElement | VirtualElement | RefObject<HTMLElement | VirtualElement | null> | null",
+            "parameters": []
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "739add5e_4ca7_4565_b54c_bd1c8c7e5cf3"
+    },
+    {
+      "category": "OTHERS",
+      "name": "popperConfig",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Omit<UsePopperOptions, \"placement\">"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "fb3f8534_bcaf_4e41_b643_a2ef53adfd9a"
+    },
+    {
+      "category": "OTHERS",
+      "name": "flip",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "53f48e82_c006_4ab4_9c12_fef99086081b"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "container",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "NULL"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "HTMLElement"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "RefObject<HTMLElement | null>"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "() => HTMLElement | RefObject<HTMLElement | null> | null",
+            "parameters": []
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "e03c4858_3af5_4c3d_9423_a2904a3b21de"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onHide",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(e: Event) => void",
+            "parameters": [
+              {
+                "name": "e",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "Event"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "aaed43c8_8b22_4bca_8d89_d5eedbcbf4ce"
+    },
+    {
+      "category": "OTHERS",
+      "name": "runTransition",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "TransitionHandler",
+            "parameters": [
+              {
+                "name": "options",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "TransitionFunctionOptions"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "43d30eb8_e5c5_41fb_a478_715f01a40432"
+    },
+    {
+      "category": "OTHERS",
+      "name": "offset",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "OffsetFunction",
+            "parameters": [
+              {
+                "name": "details",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "{ popper: Rect; reference: Rect; placement: Placement; }"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "OffsetValue"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "3b757c5a_458e_44a3_b3f2_9807db2cec05"
+    },
+    {
+      "category": "OTHERS",
+      "name": "containerPadding",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "0b73f8b3_fce9_476d_9af6_b5eeadafd359"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "rootClose",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "efd5fba3_0c54_4e86_913c_e37a98480001"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "rootCloseDisabled",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "edaa53dd_e71e_4e65_975a_b28be7a87900"
+    }
+  ],
+  "isMostUsed": false
+}

@@ -1,0 +1,518 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "Table",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiTableProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "component",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "RootComponent"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "b0eqwjn6ijfqm3eexdzn8f"
+      },
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "438g7bc0uqobg5dfsltltq"
+      },
+      {
+        "category": "OTHERS",
+        "name": "classes",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Partial<TableClasses> & Partial<ClassNameMap<never>>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "x3df6zjud8hx4mg5lkzuw"
+      },
+      {
+        "category": "OTHERS",
+        "name": "padding",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"checkbox\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"none\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"normal\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "i6hue9d3kdigmghcoix1g"
+      },
+      {
+        "category": "OTHERS",
+        "name": "size",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"small\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"medium\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "78luz4fwhnh3etx7t0hke"
+      },
+      {
+        "category": "OTHERS",
+        "name": "stickyHeader",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "xteo2bzw43ggfpuxg5rk3c"
+      },
+      {
+        "category": "OTHERS",
+        "name": "sx",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "SystemCssProperties<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSPseudoSelectorProps<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "17qffqbsyfxjcjtykisyxd"
+      },
+      {
+        "category": "OTHERS",
+        "name": "className",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "gmz5j8cmx5dlybv4i8sab"
+      },
+      {
+        "category": "OTHERS",
+        "name": "style",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSProperties"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "ayeb16ljk3g1083pvyp67cr"
+      }
+    ]
+  },
+  "_id": "08w6nqe1srg7v2etdu1ifv",
+  "$id": "mui_Table",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "component",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "RootComponent"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "b0eqwjn6ijfqm3eexdzn8f"
+    },
+    {
+      "category": "OTHERS",
+      "name": "children",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          },
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "bigint"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "false"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "true"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Iterable<ReactNode>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactPortal"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Promise<AwaitedReactNode>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "438g7bc0uqobg5dfsltltq"
+    },
+    {
+      "category": "OTHERS",
+      "name": "classes",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Partial<TableClasses> & Partial<ClassNameMap<never>>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "x3df6zjud8hx4mg5lkzuw"
+    },
+    {
+      "category": "OTHERS",
+      "name": "padding",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "\"checkbox\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"none\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"normal\""
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "i6hue9d3kdigmghcoix1g"
+    },
+    {
+      "category": "OTHERS",
+      "name": "size",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "\"small\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"medium\""
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "78luz4fwhnh3etx7t0hke"
+    },
+    {
+      "category": "OTHERS",
+      "name": "stickyHeader",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "xteo2bzw43ggfpuxg5rk3c"
+    },
+    {
+      "category": "OTHERS",
+      "name": "sx",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "SystemCssProperties<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSPseudoSelectorProps<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "17qffqbsyfxjcjtykisyxd"
+    },
+    {
+      "category": "OTHERS",
+      "name": "className",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "gmz5j8cmx5dlybv4i8sab"
+    },
+    {
+      "category": "OTHERS",
+      "name": "style",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSProperties"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "ayeb16ljk3g1083pvyp67cr"
+    }
+  ]
+}

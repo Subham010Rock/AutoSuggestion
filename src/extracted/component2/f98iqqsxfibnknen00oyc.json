@@ -1,0 +1,18 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "SliderRail",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiSliderRailProps"
+      }
+    ],
+    "props": []
+  },
+  "_id": "f98iqqsxfibnknen00oyc",
+  "$id": "mui_SliderRail",
+  "parentId": null,
+  "propVars": []
+}

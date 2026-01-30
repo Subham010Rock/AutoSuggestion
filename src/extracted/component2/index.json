@@ -1,0 +1,878 @@
+{
+  "f5819c1cgx58gn3fglr83h": {
+    "name": "Accordion",
+    "$id": "mui_Accordion",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "x4dndzsqwnjsfzzrs41w": {
+    "name": "AccordionActions",
+    "$id": "mui_AccordionActions",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "nofgtx9qn29xjljaj1t1f": {
+    "name": "AccordionDetails",
+    "$id": "mui_AccordionDetails",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "r3jyl09ol6kpelf6nas6xh": {
+    "name": "AccordionSummary",
+    "$id": "mui_AccordionSummary",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "wcurwfsu01l2xjyeqz0n8f": {
+    "name": "Alert",
+    "$id": "mui_Alert",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "olvaonqc1aqp4h6y3zbzkf": {
+    "name": "AlertTitle",
+    "$id": "mui_AlertTitle",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "e5ahl1zyuik2mahdmgg76s": {
+    "name": "AppBar",
+    "$id": "mui_AppBar",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "22nny99b3kse3dcy0czqks": {
+    "name": "Autocomplete",
+    "$id": "mui_Autocomplete",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "d2ch744qmpvgsc579jdx": {
+    "name": "Avatar",
+    "$id": "mui_Avatar",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "qamycuqid5gr96996xr3lg": {
+    "name": "AvatarGroup",
+    "$id": "mui_AvatarGroup",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "xhdmg8m4jtf0gsiltdrkuer": {
+    "name": "Backdrop",
+    "$id": "mui_Backdrop",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "4d446ldcsmopxqq3q5w62e": {
+    "name": "Badge",
+    "$id": "mui_Badge",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "jsgay6yz6klsdkb8y82m": {
+    "name": "BottomNavigation",
+    "$id": "mui_BottomNavigation",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "6nnomq3stngh9owpi1jesk": {
+    "name": "BottomNavigationAction",
+    "$id": "mui_BottomNavigationAction",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "75bt0m90woh0ye70nxfkpan": {
+    "name": "Box",
+    "$id": "mui_Box",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "28otqaqcb4gakuno8jx2yl": {
+    "name": "Breadcrumbs",
+    "$id": "mui_Breadcrumbs",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "t8j7dvystk6ukaht3g1gq": {
+    "name": "Button",
+    "$id": "mui_Button",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "1o85qp7rw8yhynxz4a6ob2s": {
+    "name": "ButtonBase",
+    "$id": "mui_ButtonBase",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "n979ydmlf964mig6t99": {
+    "name": "ButtonGroup",
+    "$id": "mui_ButtonGroup",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "mrjq4a4sxofoo7xjyao4lk": {
+    "name": "Card",
+    "$id": "mui_Card",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "xc0kakvt5dyoaglbxy96q": {
+    "name": "CardActionArea",
+    "$id": "mui_CardActionArea",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "jwd39ingdlcoddg8fr4b": {
+    "name": "CardActions",
+    "$id": "mui_CardActions",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "t17504asxgcbgvd2c8r35": {
+    "name": "CardContent",
+    "$id": "mui_CardContent",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "l8qgu4v06j8m2xsg09lts": {
+    "name": "CardHeader",
+    "$id": "mui_CardHeader",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "hqo9fpur9ou34lm8wzaiks": {
+    "name": "CardMedia",
+    "$id": "mui_CardMedia",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "deochq4w6iou4jnsjna4wf": {
+    "name": "Checkbox",
+    "$id": "mui_Checkbox",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "uwpyj2abl1p1pqrmtjabwp": {
+    "name": "Chip",
+    "$id": "mui_Chip",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "gq9plto13xuae1xlj49kbn": {
+    "name": "CircularProgress",
+    "$id": "mui_CircularProgress",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "4gdh721ccdsc6a1st7osfr": {
+    "name": "ClickAwayListener",
+    "$id": "mui_ClickAwayListener",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "no5j37gc46x6qtdyqow3": {
+    "name": "Collapse",
+    "$id": "mui_Collapse",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "taf5erun0gzhohq9m93g": {
+    "name": "Container",
+    "$id": "mui_Container",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "edsl5piu9yw1zhn4kiahtd": {
+    "name": "CssBaseline",
+    "$id": "mui_CssBaseline",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "j9merac80lmv1agradzqus": {
+    "name": "Dialog",
+    "$id": "mui_Dialog",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ay86fmql7kbck7fxzehwk": {
+    "name": "DialogActions",
+    "$id": "mui_DialogActions",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "18lh5gxsj9odfvpkk8ashp": {
+    "name": "DialogContent",
+    "$id": "mui_DialogContent",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "vabgh5sikbkz1t5w0v7zq": {
+    "name": "DialogContentText",
+    "$id": "mui_DialogContentText",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "r979cdqjr6ajqvgt16mlad": {
+    "name": "DialogTitle",
+    "$id": "mui_DialogTitle",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "iujy14xerqo1qqklijz1": {
+    "name": "Divider",
+    "$id": "mui_Divider",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "3z1sx99y5oghdy0pw4m5zb": {
+    "name": "Drawer",
+    "$id": "mui_Drawer",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "2mtu4p8m1wx9sr6vzeyk6": {
+    "name": "Fab",
+    "$id": "mui_Fab",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "67g73akr0coja52q976zm": {
+    "name": "Fade",
+    "$id": "mui_Fade",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "qswoxarr4n64kefdt1bat": {
+    "name": "FilledInput",
+    "$id": "mui_FilledInput",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "bmi436w9r486ipte0j761u": {
+    "name": "FormControl",
+    "$id": "mui_FormControl",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "jj7vu6zmchbnrkc2enkg": {
+    "name": "FormControlLabel",
+    "$id": "mui_FormControlLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "1eg7ln9jv5akvrksaofkc7": {
+    "name": "FormGroup",
+    "$id": "mui_FormGroup",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "qfsm0l57dukalhejlatib": {
+    "name": "FormHelperText",
+    "$id": "mui_FormHelperText",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "mkqfclw9m1npwcbvey1d": {
+    "name": "FormLabel",
+    "$id": "mui_FormLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ymxhdrjy7tdvhetgnot3m": {
+    "name": "GlobalStyles",
+    "$id": "mui_GlobalStyles",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "3l4l11ufqmu3kox3xscm69": {
+    "name": "Grid",
+    "$id": "mui_Grid",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "e7nno0z3h8av98h0y68ods": {
+    "name": "GridLegacy",
+    "$id": "mui_GridLegacy",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "9mjgvfblddjiraw0csli1": {
+    "name": "Grow",
+    "$id": "mui_Grow",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "gviulczc61gu385ikbb0i": {
+    "name": "Icon",
+    "$id": "mui_Icon",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "h7d49o9zns7gxw0a0jpke": {
+    "name": "IconButton",
+    "$id": "mui_IconButton",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "irtfjyq994dpxastjsqok": {
+    "name": "ImageList",
+    "$id": "mui_ImageList",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "7q1fkthiacaa1oaqodjpe4": {
+    "name": "ImageListItem",
+    "$id": "mui_ImageListItem",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "wszll0oy7grvftzxzomdaj": {
+    "name": "ImageListItemBar",
+    "$id": "mui_ImageListItemBar",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "orxc59ykwzhkz6xw1z9an": {
+    "name": "InitColorSchemeScript",
+    "$id": "mui_InitColorSchemeScript",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "by2ia0i84388yyz1cg2rdf": {
+    "name": "Input",
+    "$id": "mui_Input",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "08vk1o47im6sj70dri1fglb": {
+    "name": "InputAdornment",
+    "$id": "mui_InputAdornment",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "f6bcczcmn8kmhqwqqvk079": {
+    "name": "InputBase",
+    "$id": "mui_InputBase",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "w4jaxswor7iu9pnxlc7n08": {
+    "name": "InputLabel",
+    "$id": "mui_InputLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "pbpscf638al6w5g7flyzi9": {
+    "name": "LinearProgress",
+    "$id": "mui_LinearProgress",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "of0wrgqsgynyusl1zld1n9": {
+    "name": "Link",
+    "$id": "mui_Link",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "b4x3rp7zukmknh1p2mkcfc": {
+    "name": "List",
+    "$id": "mui_List",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "apc58ieznwbphjg610p85": {
+    "name": "ListItem",
+    "$id": "mui_ListItem",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "qksa92lqtfmv9q2k1cs3ha": {
+    "name": "ListItemAvatar",
+    "$id": "mui_ListItemAvatar",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "zgatj5n6o1jhnr6qvay99j": {
+    "name": "ListItemButton",
+    "$id": "mui_ListItemButton",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "pw396z16n9wab2zogw7q": {
+    "name": "ListItemIcon",
+    "$id": "mui_ListItemIcon",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "e8zua4llaemba4zbyen428": {
+    "name": "ListItemSecondaryAction",
+    "$id": "mui_ListItemSecondaryAction",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "hf6io9pkq6sfbuigapiwq": {
+    "name": "ListItemText",
+    "$id": "mui_ListItemText",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ap9tpt8807dh2gvzxbce6k": {
+    "name": "ListSubheader",
+    "$id": "mui_ListSubheader",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "9nmj0ne3a8nf35gkyf2pwi": {
+    "name": "Menu",
+    "$id": "mui_Menu",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ift5np3w7unxfs5a93g92h": {
+    "name": "MenuItem",
+    "$id": "mui_MenuItem",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ma4jzwlj1r5exm4iqua2h": {
+    "name": "MenuList",
+    "$id": "mui_MenuList",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "s5dt3qkyvc8czzoydekm8c": {
+    "name": "MobileStepper",
+    "$id": "mui_MobileStepper",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "0574eajfhoueddbqgdv4tc9": {
+    "name": "Modal",
+    "$id": "mui_Modal",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "rq0ai2i83nt3loky4qxcm": {
+    "name": "NativeSelect",
+    "$id": "mui_NativeSelect",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "rr3obabld7m9a1lojni0f": {
+    "name": "NoSsr",
+    "$id": "mui_NoSsr",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "29h9dek7v8tk7l7q4xca2": {
+    "name": "OutlinedInput",
+    "$id": "mui_OutlinedInput",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "m8k3myww1o45q8cykpjk": {
+    "name": "Pagination",
+    "$id": "mui_Pagination",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "fvt6afqp08mjd9sbyc3zxr": {
+    "name": "PaginationItem",
+    "$id": "mui_PaginationItem",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "t1g9nzxm1gj34sj8na87sq": {
+    "name": "Paper",
+    "$id": "mui_Paper",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "hui05zfudjd6ugia3vxmt": {
+    "name": "Popover",
+    "$id": "mui_Popover",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "henpf9d9gf8ay218j503kj": {
+    "name": "Popper",
+    "$id": "mui_Popper",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "kap9o4mwkpr70t4uil6gdu": {
+    "name": "Portal",
+    "$id": "mui_Portal",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "dzssafgmarfmk57amolpql": {
+    "name": "Radio",
+    "$id": "mui_Radio",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ucxmk97l6mekrra2slkr3r": {
+    "name": "RadioGroup",
+    "$id": "mui_RadioGroup",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "gyzxjnnnb9r15saosvpgo9": {
+    "name": "Rating",
+    "$id": "mui_Rating",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "lv6sehm76tjwl8fpwg9nc": {
+    "name": "ScopedCssBaseline",
+    "$id": "mui_ScopedCssBaseline",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "b9c3cokgf18euj997rd9l4": {
+    "name": "Select",
+    "$id": "mui_Select",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ncxvkce9v1b2amm6vjatnh": {
+    "name": "Skeleton",
+    "$id": "mui_Skeleton",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "c1xcr66u1sctkmi1parp0q": {
+    "name": "Slide",
+    "$id": "mui_Slide",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "729m9vhmdn6ek2w2w14wg": {
+    "name": "Slider",
+    "$id": "mui_Slider",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "p4xwryarbcga7q7lgdw47": {
+    "name": "Snackbar",
+    "$id": "mui_Snackbar",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ahf6jmu2npshqzzessc4": {
+    "name": "SnackbarContent",
+    "$id": "mui_SnackbarContent",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "zq13sxwwxf8t2xbxkbmni": {
+    "name": "SpeedDial",
+    "$id": "mui_SpeedDial",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "f5g1512r2g9zxt9et1hz1l": {
+    "name": "SpeedDialAction",
+    "$id": "mui_SpeedDialAction",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "zbtsg21j4zo0pabzk9healh": {
+    "name": "SpeedDialIcon",
+    "$id": "mui_SpeedDialIcon",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "8vz9gvvlpfgg7lj91p2x6i": {
+    "name": "Stack",
+    "$id": "mui_Stack",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ulnq55je4mifudkiuaz74u": {
+    "name": "Step",
+    "$id": "mui_Step",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "r22gdytknzfam09pxn2vbk": {
+    "name": "StepButton",
+    "$id": "mui_StepButton",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "myy6djepfzsszsbwos33": {
+    "name": "StepConnector",
+    "$id": "mui_StepConnector",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "sl63z2cj7cwa2gb9s4pfi": {
+    "name": "StepContent",
+    "$id": "mui_StepContent",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "lhc9qi0fdzplmogubejz2n": {
+    "name": "StepIcon",
+    "$id": "mui_StepIcon",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "el9h22ej9xg7yfd4rxm445": {
+    "name": "StepLabel",
+    "$id": "mui_StepLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "d6e1jc6usywb0c7h4jjgtr": {
+    "name": "Stepper",
+    "$id": "mui_Stepper",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "8padtn5gburwl2hqsfl7c": {
+    "name": "SvgIcon",
+    "$id": "mui_SvgIcon",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "rl9fbc6c7w76lvx6al3fu": {
+    "name": "Switch",
+    "$id": "mui_Switch",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "40tl47ogmfquy8wfwfqeb8": {
+    "name": "Tab",
+    "$id": "mui_Tab",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "9nk7l3vrvj8a0p3xgegdxk": {
+    "name": "TabScrollButton",
+    "$id": "mui_TabScrollButton",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "08w6nqe1srg7v2etdu1ifv": {
+    "name": "Table",
+    "$id": "mui_Table",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "34mm5q7le6c6x18vd8v2mh": {
+    "name": "TableBody",
+    "$id": "mui_TableBody",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "lb9zag6qyqh9x5ghq3h6cm": {
+    "name": "TableCell",
+    "$id": "mui_TableCell",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "inwllr9t9cjxplgxaqw81n": {
+    "name": "TableContainer",
+    "$id": "mui_TableContainer",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "y3k2nwle6mrcypxcrgem2k": {
+    "name": "TableFooter",
+    "$id": "mui_TableFooter",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "a2bssm1smt868gawuxkcxm": {
+    "name": "TableHead",
+    "$id": "mui_TableHead",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "7gymyxoz0ceg4yf6funkbj": {
+    "name": "TablePagination",
+    "$id": "mui_TablePagination",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "s4t3832tzy400y6gn0x5p": {
+    "name": "TableRow",
+    "$id": "mui_TableRow",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "jfbvm8p56iflujkr5xbjej": {
+    "name": "TableSortLabel",
+    "$id": "mui_TableSortLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "wajuwym92ictzw9ozpdp5k": {
+    "name": "Tabs",
+    "$id": "mui_Tabs",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "e3b39ksig9agvjxh7yx4xo": {
+    "name": "TextField",
+    "$id": "mui_TextField",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "s28vabj06ygocttnmsdcnb": {
+    "name": "TextareaAutosize",
+    "$id": "mui_TextareaAutosize",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "vuqsws38ogia6svz6uqk4m": {
+    "name": "ToggleButton",
+    "$id": "mui_ToggleButton",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "uree30i2i0osfpv2s2lwv": {
+    "name": "ToggleButtonGroup",
+    "$id": "mui_ToggleButtonGroup",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "wffgmp8fswnlnr418r4lf": {
+    "name": "Toolbar",
+    "$id": "mui_Toolbar",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ddyrcwehmdse9urp955kpj": {
+    "name": "Tooltip",
+    "$id": "mui_Tooltip",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "b4iyi2lajx5qkgjks7dm5": {
+    "name": "Typography",
+    "$id": "mui_Typography",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "izp3fr32k2c9mgmx7ie2p": {
+    "name": "Unstable_TrapFocus",
+    "$id": "mui_Unstable_TrapFocus",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "zyq9lz6f4dfds98kcnsa87": {
+    "name": "Zoom",
+    "$id": "mui_Zoom",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "o9atwqlmsjjmhrienscfs": {
+    "name": "StyledEngineProvider",
+    "$id": "mui_StyledEngineProvider",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "5n7hwe3n6dtvonrjkoi07": {
+    "name": "ThemeProvider",
+    "$id": "mui_ThemeProvider",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "clzmn5sapmml042yyh3ewi": {
+    "name": "CssVarsProvider",
+    "$id": "mui_CssVarsProvider",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "l16ignn3ch1ejm38mdtt6": {
+    "name": "Experimental_CssVarsProvider",
+    "$id": "mui_Experimental_CssVarsProvider",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "zo9ow9scx5gzuc0bglu0v": {
+    "name": "ButtonGroupButtonContext",
+    "$id": "mui_ButtonGroupButtonContext",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "hh9sava2irjnqlzaxdxpc": {
+    "name": "ButtonGroupContext",
+    "$id": "mui_ButtonGroupContext",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "si29uklmjb0l769mptauj": {
+    "name": "PopoverPaper",
+    "$id": "mui_PopoverPaper",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ac5upf7ct8jndvrdf6vle": {
+    "name": "PopoverRoot",
+    "$id": "mui_PopoverRoot",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "shtnjkk1s7br0r9biysnq": {
+    "name": "SliderMark",
+    "$id": "mui_SliderMark",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ltwsznl61hl2fbbn7ne7": {
+    "name": "SliderMarkLabel",
+    "$id": "mui_SliderMarkLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "f98iqqsxfibnknen00oyc": {
+    "name": "SliderRail",
+    "$id": "mui_SliderRail",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "rmhpw13m4fbfpwntmsfe": {
+    "name": "SliderRoot",
+    "$id": "mui_SliderRoot",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "gbboono55dk93bwjqgsavl": {
+    "name": "SliderThumb",
+    "$id": "mui_SliderThumb",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "n3xus8c7kmfwjir1qczn9d": {
+    "name": "SliderTrack",
+    "$id": "mui_SliderTrack",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "eoj08f2pbiux6l0ko69v": {
+    "name": "SliderValueLabel",
+    "$id": "mui_SliderValueLabel",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ycseeq9hb9il8upbnvcvas": {
+    "name": "StepContext",
+    "$id": "mui_StepContext",
+    "hasChildren": true,
+    "icon": "bi-box"
+  },
+  "ubq7dgvqqr4ft01wssb5f": {
+    "name": "StepperContext",
+    "$id": "mui_StepperContext",
+    "hasChildren": true,
+    "icon": "bi-box"
+  }
+}

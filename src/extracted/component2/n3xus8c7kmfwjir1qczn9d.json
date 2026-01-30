@@ -1,0 +1,18 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "SliderTrack",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiSliderTrackProps"
+      }
+    ],
+    "props": []
+  },
+  "_id": "n3xus8c7kmfwjir1qczn9d",
+  "$id": "mui_SliderTrack",
+  "parentId": null,
+  "propVars": []
+}

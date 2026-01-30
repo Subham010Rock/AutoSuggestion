@@ -1,0 +1,3310 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "Modal",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "BsPrefixRefForwardingComponent<\"div\", ModalProps> & { Body: BsPrefixRefForwardingComponent<\"div\", ModalBodyProps>; ... 5 more ...; BACKDROP_TRANSITION_DURATION: number; }"
+      },
+      {
+        "type": "Object",
+        "properties": [
+          {
+            "name": "Body",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "BsPrefixRefForwardingComponent<\"div\", ModalBodyProps>"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Header",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "ForwardRefExoticComponent<ModalHeaderProps & RefAttributes<HTMLDivElement>>"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Title",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "BsPrefixRefForwardingComponent<\"span\", ModalTitleProps>"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Footer",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "BsPrefixRefForwardingComponent<\"div\", ModalFooterProps>"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Dialog",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "ForwardRefExoticComponent<ModalDialogProps & RefAttributes<HTMLDivElement>>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "bsPrefix",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "f2dc676b_c1bf_4909_8f8a_4111c33945da"
+      },
+      {
+        "category": "OTHERS",
+        "name": "as",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "As"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "zhggx7pcgql"
+      },
+      {
+        "category": "VARIANTS",
+        "name": "size",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"sm\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"lg\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"xl\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "8d3c9f04_4971_43f5_8ee3_d36bb9f14099"
+      },
+      {
+        "category": "STYLE_LAYOUT",
+        "name": "fullscreen",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "8b8002b0_bf87_4b43_ab5b_b53f9e910794"
+      },
+      {
+        "category": "OTHERS",
+        "name": "centered",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "1b3f1dad_6437_4a98_831b_b674d6b93e55"
+      },
+      {
+        "category": "OTHERS",
+        "name": "backdropClassName",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "5990631b_8814_4377_8f72_afa98cfb252d"
+      },
+      {
+        "category": "ANIMATIONS_TRANSITIONS",
+        "name": "animation",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "ba81a756_8930_4f59_b0ed_ddd431371bb0"
+      },
+      {
+        "category": "OTHERS",
+        "name": "dialogClassName",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "b1cb0423_480e_4fa4_82a2_ff6b960819a2"
+      },
+      {
+        "category": "CONTENT_SLOTS",
+        "name": "contentClassName",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "e4beaddd_b7e5_426b_9298_b83bb52a4498"
+      },
+      {
+        "category": "OTHERS",
+        "name": "dialogAs",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"symbol\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"object\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"div\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"a\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"abbr\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"address\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"area\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"article\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"aside\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"audio\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"b\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"base\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"bdi\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"bdo\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"big\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"blockquote\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"body\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"br\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"button\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"canvas\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"caption\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"center\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"cite\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"code\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"col\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"colgroup\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"data\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"datalist\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"dd\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"del\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"details\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"dfn\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"dialog\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"dl\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"dt\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"em\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"embed\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"fieldset\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"figcaption\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"figure\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"footer\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"form\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"h1\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"h2\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"h3\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"h4\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"h5\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"h6\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"head\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"header\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"hgroup\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"hr\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"html\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"i\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"iframe\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"img\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"input\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"ins\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"kbd\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"keygen\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"label\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"legend\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"li\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"link\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"main\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"map\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"mark\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"menu\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"menuitem\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"meta\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"meter\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"nav\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"noindex\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"noscript\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"ol\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"optgroup\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"option\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"output\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"p\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"param\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"picture\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"pre\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"progress\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"q\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"rp\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"rt\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"ruby\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"s\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"samp\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"search\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"slot\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"script\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"section\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"select\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"small\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"source\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"span\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"strong\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"style\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"sub\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"summary\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"sup\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"table\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"template\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"tbody\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"td\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"textarea\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"tfoot\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"th\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"thead\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"time\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"title\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"tr\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"track\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"u\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"ul\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"var\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"video\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"wbr\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"webview\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"svg\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"animate\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"animateMotion\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"animateTransform\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"circle\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"clipPath\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"defs\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"desc\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"ellipse\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feBlend\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feColorMatrix\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feComponentTransfer\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feComposite\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feConvolveMatrix\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feDiffuseLighting\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feDisplacementMap\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feDistantLight\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feDropShadow\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feFlood\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feFuncA\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feFuncB\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feFuncG\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feFuncR\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feGaussianBlur\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feImage\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feMerge\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feMergeNode\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feMorphology\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feOffset\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"fePointLight\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feSpecularLighting\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feSpotLight\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feTile\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"feTurbulence\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"filter\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"foreignObject\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"g\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"image\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"line\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"linearGradient\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"marker\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"mask\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"metadata\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"mpath\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"path\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"pattern\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"polygon\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"polyline\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"radialGradient\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"rect\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"set\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"stop\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"switch\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"text\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"textPath\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"tspan\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"use\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"view\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ComponentClass<any, any>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "FunctionComponent<any>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "113b978c_1c9c_49ce_9933_6f337f0d0c48"
+      },
+      {
+        "category": "OTHERS",
+        "name": "scrollable",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "c535b84e_5dc5_459c_bda8_38c0572a4aa0"
+      },
+      {
+        "category": "STYLE_LAYOUT",
+        "name": "style",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSProperties"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "e65ed44d_de76_49ea_a804_d5ba18a9868f"
+      },
+      {
+        "category": "FORM_SPECIFIC",
+        "name": "autoFocus",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "b16f5260_3188_40e9_affc_1293445fcc37"
+      },
+      {
+        "category": "STYLE_LAYOUT",
+        "name": "className",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "046b626d_0bac_40b7_a84d_38e20a9a6979"
+      },
+      {
+        "category": "BEHAVIOR_STATE",
+        "name": "show",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "6d54adba_8ba1_447e_b82d_662a0f8f0ffc"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEnter",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement, isAppearing: boolean) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "4564eb9a_5553_49f7_8b17_e45c97898e32"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEntering",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement, isAppearing: boolean) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "2ef68b2a_7195_4aed_9f8e_72619d0addd9"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEntered",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement, isAppearing: boolean) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "d95a0a02_36dd_4465_b1bc_b6e45bd253b3"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onExit",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "cff9ae90_1ccf_4caa_9ff5_66e028b51ab0"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onExiting",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "39072528_d589_4eaf_a1ce_98e17d51ae36"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onExited",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(node: HTMLElement) => any"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "c5d2a223_c68a_4a4a_8b2c_26ab0857bff5"
+      },
+      {
+        "category": "OTHERS",
+        "name": "keyboard",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "c2596d92_94f6_4d59_b7be_33a996956a53"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "container",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "HTMLElement"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "RefObject<HTMLElement>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "() => HTMLElement | RefObject<HTMLElement>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "abedc026_a857_4980_b979_b201aab8877d"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onShow",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "() => void"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "e3f69a6d_fac1_4cad_bba4_8170b83b5b6e"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onHide",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "() => void"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "f9eafe18_f39b_4210_98ab_cf10d42ab18d"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "manager",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ModalManager"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "1e0c6a5d_85c4_4190_8fd9_8061df8da177"
+      },
+      {
+        "category": "OTHERS",
+        "name": "backdrop",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "LABEL",
+              "value": "\"static\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "5f9b2a2b_0464_498c_b4af_8a80a1f23f2f"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onEscapeKeyDown",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(e: KeyboardEvent) => void"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "27d95c14_b25e_4fad_98e7_9cedd7c25a17"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onBackdropClick",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(e: SyntheticEvent<Element, Event>) => void"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "4d5d6493_e0c5_4a7a_9907_19389c96e23d"
+      },
+      {
+        "category": "OTHERS",
+        "name": "runTransition",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "TransitionHandler"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "18e5182a_d8de_412c_868a_bbf2b2013f3b"
+      },
+      {
+        "category": "OTHERS",
+        "name": "runBackdropTransition",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "TransitionHandler"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "baddb823_8a10_4c01_93ae_25e644af9e25"
+      },
+      {
+        "category": "OTHERS",
+        "name": "enforceFocus",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "e78af083_5273_4b15_a18a_cf6e9a72e203"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "restoreFocus",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "bc4c3524_02ad_459f_855d_a51d718a5789"
+      },
+      {
+        "category": "OTHERS",
+        "name": "restoreFocusOptions",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "{ preventScroll: boolean; }"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "949c000b_f7cf_456c_9acb_28d4bbb409c6"
+      },
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "q9zoumwkr5"
+      }
+    ]
+  },
+  "_id": "9c8a26c9_205b_44ec_a64e_9dd4b12fc34d",
+  "$id": "react-bootstrap_Modal",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "VARIANTS",
+      "name": "size",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "LABEL",
+            "value": "sm"
+          },
+          {
+            "type": "LABEL",
+            "value": "lg"
+          },
+          {
+            "type": "LABEL",
+            "value": "xl"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "8d3c9f04_4971_43f5_8ee3_d36bb9f14099"
+    },
+    {
+      "category": "STYLE_LAYOUT",
+      "name": "fullscreen",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "8b8002b0_bf87_4b43_ab5b_b53f9e910794"
+    },
+    {
+      "category": "OTHERS",
+      "name": "bsPrefix",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "f2dc676b_c1bf_4909_8f8a_4111c33945da"
+    },
+    {
+      "category": "OTHERS",
+      "name": "centered",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "1b3f1dad_6437_4a98_831b_b674d6b93e55"
+    },
+    {
+      "category": "OTHERS",
+      "name": "backdropClassName",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "5990631b_8814_4377_8f72_afa98cfb252d"
+    },
+    {
+      "category": "ANIMATIONS_TRANSITIONS",
+      "name": "animation",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "ba81a756_8930_4f59_b0ed_ddd431371bb0"
+    },
+    {
+      "category": "OTHERS",
+      "name": "dialogClassName",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "b1cb0423_480e_4fa4_82a2_ff6b960819a2"
+    },
+    {
+      "category": "CONTENT_SLOTS",
+      "name": "contentClassName",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "e4beaddd_b7e5_426b_9298_b83bb52a4498"
+    },
+    {
+      "category": "OTHERS",
+      "name": "dialogAs",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "LABEL",
+            "value": "symbol"
+          },
+          {
+            "type": "LABEL",
+            "value": "object"
+          },
+          {
+            "type": "LABEL",
+            "value": "a"
+          },
+          {
+            "type": "LABEL",
+            "value": "abbr"
+          },
+          {
+            "type": "LABEL",
+            "value": "address"
+          },
+          {
+            "type": "LABEL",
+            "value": "area"
+          },
+          {
+            "type": "LABEL",
+            "value": "article"
+          },
+          {
+            "type": "LABEL",
+            "value": "aside"
+          },
+          {
+            "type": "LABEL",
+            "value": "audio"
+          },
+          {
+            "type": "LABEL",
+            "value": "b"
+          },
+          {
+            "type": "LABEL",
+            "value": "base"
+          },
+          {
+            "type": "LABEL",
+            "value": "bdi"
+          },
+          {
+            "type": "LABEL",
+            "value": "bdo"
+          },
+          {
+            "type": "LABEL",
+            "value": "big"
+          },
+          {
+            "type": "LABEL",
+            "value": "blockquote"
+          },
+          {
+            "type": "LABEL",
+            "value": "body"
+          },
+          {
+            "type": "LABEL",
+            "value": "br"
+          },
+          {
+            "type": "LABEL",
+            "value": "button"
+          },
+          {
+            "type": "LABEL",
+            "value": "canvas"
+          },
+          {
+            "type": "LABEL",
+            "value": "caption"
+          },
+          {
+            "type": "LABEL",
+            "value": "center"
+          },
+          {
+            "type": "LABEL",
+            "value": "cite"
+          },
+          {
+            "type": "LABEL",
+            "value": "code"
+          },
+          {
+            "type": "LABEL",
+            "value": "col"
+          },
+          {
+            "type": "LABEL",
+            "value": "colgroup"
+          },
+          {
+            "type": "LABEL",
+            "value": "data"
+          },
+          {
+            "type": "LABEL",
+            "value": "datalist"
+          },
+          {
+            "type": "LABEL",
+            "value": "dd"
+          },
+          {
+            "type": "LABEL",
+            "value": "del"
+          },
+          {
+            "type": "LABEL",
+            "value": "details"
+          },
+          {
+            "type": "LABEL",
+            "value": "dfn"
+          },
+          {
+            "type": "LABEL",
+            "value": "dialog"
+          },
+          {
+            "type": "LABEL",
+            "value": "div"
+          },
+          {
+            "type": "LABEL",
+            "value": "dl"
+          },
+          {
+            "type": "LABEL",
+            "value": "dt"
+          },
+          {
+            "type": "LABEL",
+            "value": "em"
+          },
+          {
+            "type": "LABEL",
+            "value": "embed"
+          },
+          {
+            "type": "LABEL",
+            "value": "fieldset"
+          },
+          {
+            "type": "LABEL",
+            "value": "figcaption"
+          },
+          {
+            "type": "LABEL",
+            "value": "figure"
+          },
+          {
+            "type": "LABEL",
+            "value": "footer"
+          },
+          {
+            "type": "LABEL",
+            "value": "form"
+          },
+          {
+            "type": "LABEL",
+            "value": "h1"
+          },
+          {
+            "type": "LABEL",
+            "value": "h2"
+          },
+          {
+            "type": "LABEL",
+            "value": "h3"
+          },
+          {
+            "type": "LABEL",
+            "value": "h4"
+          },
+          {
+            "type": "LABEL",
+            "value": "h5"
+          },
+          {
+            "type": "LABEL",
+            "value": "h6"
+          },
+          {
+            "type": "LABEL",
+            "value": "head"
+          },
+          {
+            "type": "LABEL",
+            "value": "header"
+          },
+          {
+            "type": "LABEL",
+            "value": "hgroup"
+          },
+          {
+            "type": "LABEL",
+            "value": "hr"
+          },
+          {
+            "type": "LABEL",
+            "value": "html"
+          },
+          {
+            "type": "LABEL",
+            "value": "i"
+          },
+          {
+            "type": "LABEL",
+            "value": "iframe"
+          },
+          {
+            "type": "LABEL",
+            "value": "img"
+          },
+          {
+            "type": "LABEL",
+            "value": "input"
+          },
+          {
+            "type": "LABEL",
+            "value": "ins"
+          },
+          {
+            "type": "LABEL",
+            "value": "kbd"
+          },
+          {
+            "type": "LABEL",
+            "value": "keygen"
+          },
+          {
+            "type": "LABEL",
+            "value": "label"
+          },
+          {
+            "type": "LABEL",
+            "value": "legend"
+          },
+          {
+            "type": "LABEL",
+            "value": "li"
+          },
+          {
+            "type": "LABEL",
+            "value": "link"
+          },
+          {
+            "type": "LABEL",
+            "value": "main"
+          },
+          {
+            "type": "LABEL",
+            "value": "map"
+          },
+          {
+            "type": "LABEL",
+            "value": "mark"
+          },
+          {
+            "type": "LABEL",
+            "value": "menu"
+          },
+          {
+            "type": "LABEL",
+            "value": "menuitem"
+          },
+          {
+            "type": "LABEL",
+            "value": "meta"
+          },
+          {
+            "type": "LABEL",
+            "value": "meter"
+          },
+          {
+            "type": "LABEL",
+            "value": "nav"
+          },
+          {
+            "type": "LABEL",
+            "value": "noindex"
+          },
+          {
+            "type": "LABEL",
+            "value": "noscript"
+          },
+          {
+            "type": "LABEL",
+            "value": "ol"
+          },
+          {
+            "type": "LABEL",
+            "value": "optgroup"
+          },
+          {
+            "type": "LABEL",
+            "value": "option"
+          },
+          {
+            "type": "LABEL",
+            "value": "output"
+          },
+          {
+            "type": "LABEL",
+            "value": "p"
+          },
+          {
+            "type": "LABEL",
+            "value": "param"
+          },
+          {
+            "type": "LABEL",
+            "value": "picture"
+          },
+          {
+            "type": "LABEL",
+            "value": "pre"
+          },
+          {
+            "type": "LABEL",
+            "value": "progress"
+          },
+          {
+            "type": "LABEL",
+            "value": "q"
+          },
+          {
+            "type": "LABEL",
+            "value": "rp"
+          },
+          {
+            "type": "LABEL",
+            "value": "rt"
+          },
+          {
+            "type": "LABEL",
+            "value": "ruby"
+          },
+          {
+            "type": "LABEL",
+            "value": "s"
+          },
+          {
+            "type": "LABEL",
+            "value": "samp"
+          },
+          {
+            "type": "LABEL",
+            "value": "search"
+          },
+          {
+            "type": "LABEL",
+            "value": "slot"
+          },
+          {
+            "type": "LABEL",
+            "value": "script"
+          },
+          {
+            "type": "LABEL",
+            "value": "section"
+          },
+          {
+            "type": "LABEL",
+            "value": "select"
+          },
+          {
+            "type": "LABEL",
+            "value": "small"
+          },
+          {
+            "type": "LABEL",
+            "value": "source"
+          },
+          {
+            "type": "LABEL",
+            "value": "span"
+          },
+          {
+            "type": "LABEL",
+            "value": "strong"
+          },
+          {
+            "type": "LABEL",
+            "value": "style"
+          },
+          {
+            "type": "LABEL",
+            "value": "sub"
+          },
+          {
+            "type": "LABEL",
+            "value": "summary"
+          },
+          {
+            "type": "LABEL",
+            "value": "sup"
+          },
+          {
+            "type": "LABEL",
+            "value": "table"
+          },
+          {
+            "type": "LABEL",
+            "value": "template"
+          },
+          {
+            "type": "LABEL",
+            "value": "tbody"
+          },
+          {
+            "type": "LABEL",
+            "value": "td"
+          },
+          {
+            "type": "LABEL",
+            "value": "textarea"
+          },
+          {
+            "type": "LABEL",
+            "value": "tfoot"
+          },
+          {
+            "type": "LABEL",
+            "value": "th"
+          },
+          {
+            "type": "LABEL",
+            "value": "thead"
+          },
+          {
+            "type": "LABEL",
+            "value": "time"
+          },
+          {
+            "type": "LABEL",
+            "value": "title"
+          },
+          {
+            "type": "LABEL",
+            "value": "tr"
+          },
+          {
+            "type": "LABEL",
+            "value": "track"
+          },
+          {
+            "type": "LABEL",
+            "value": "u"
+          },
+          {
+            "type": "LABEL",
+            "value": "ul"
+          },
+          {
+            "type": "LABEL",
+            "value": "var"
+          },
+          {
+            "type": "LABEL",
+            "value": "video"
+          },
+          {
+            "type": "LABEL",
+            "value": "wbr"
+          },
+          {
+            "type": "LABEL",
+            "value": "webview"
+          },
+          {
+            "type": "LABEL",
+            "value": "svg"
+          },
+          {
+            "type": "LABEL",
+            "value": "animate"
+          },
+          {
+            "type": "LABEL",
+            "value": "animateMotion"
+          },
+          {
+            "type": "LABEL",
+            "value": "animateTransform"
+          },
+          {
+            "type": "LABEL",
+            "value": "circle"
+          },
+          {
+            "type": "LABEL",
+            "value": "clipPath"
+          },
+          {
+            "type": "LABEL",
+            "value": "defs"
+          },
+          {
+            "type": "LABEL",
+            "value": "desc"
+          },
+          {
+            "type": "LABEL",
+            "value": "ellipse"
+          },
+          {
+            "type": "LABEL",
+            "value": "feBlend"
+          },
+          {
+            "type": "LABEL",
+            "value": "feColorMatrix"
+          },
+          {
+            "type": "LABEL",
+            "value": "feComponentTransfer"
+          },
+          {
+            "type": "LABEL",
+            "value": "feComposite"
+          },
+          {
+            "type": "LABEL",
+            "value": "feConvolveMatrix"
+          },
+          {
+            "type": "LABEL",
+            "value": "feDiffuseLighting"
+          },
+          {
+            "type": "LABEL",
+            "value": "feDisplacementMap"
+          },
+          {
+            "type": "LABEL",
+            "value": "feDistantLight"
+          },
+          {
+            "type": "LABEL",
+            "value": "feDropShadow"
+          },
+          {
+            "type": "LABEL",
+            "value": "feFlood"
+          },
+          {
+            "type": "LABEL",
+            "value": "feFuncA"
+          },
+          {
+            "type": "LABEL",
+            "value": "feFuncB"
+          },
+          {
+            "type": "LABEL",
+            "value": "feFuncG"
+          },
+          {
+            "type": "LABEL",
+            "value": "feFuncR"
+          },
+          {
+            "type": "LABEL",
+            "value": "feGaussianBlur"
+          },
+          {
+            "type": "LABEL",
+            "value": "feImage"
+          },
+          {
+            "type": "LABEL",
+            "value": "feMerge"
+          },
+          {
+            "type": "LABEL",
+            "value": "feMergeNode"
+          },
+          {
+            "type": "LABEL",
+            "value": "feMorphology"
+          },
+          {
+            "type": "LABEL",
+            "value": "feOffset"
+          },
+          {
+            "type": "LABEL",
+            "value": "fePointLight"
+          },
+          {
+            "type": "LABEL",
+            "value": "feSpecularLighting"
+          },
+          {
+            "type": "LABEL",
+            "value": "feSpotLight"
+          },
+          {
+            "type": "LABEL",
+            "value": "feTile"
+          },
+          {
+            "type": "LABEL",
+            "value": "feTurbulence"
+          },
+          {
+            "type": "LABEL",
+            "value": "filter"
+          },
+          {
+            "type": "LABEL",
+            "value": "foreignObject"
+          },
+          {
+            "type": "LABEL",
+            "value": "g"
+          },
+          {
+            "type": "LABEL",
+            "value": "image"
+          },
+          {
+            "type": "LABEL",
+            "value": "line"
+          },
+          {
+            "type": "LABEL",
+            "value": "linearGradient"
+          },
+          {
+            "type": "LABEL",
+            "value": "marker"
+          },
+          {
+            "type": "LABEL",
+            "value": "mask"
+          },
+          {
+            "type": "LABEL",
+            "value": "metadata"
+          },
+          {
+            "type": "LABEL",
+            "value": "mpath"
+          },
+          {
+            "type": "LABEL",
+            "value": "path"
+          },
+          {
+            "type": "LABEL",
+            "value": "pattern"
+          },
+          {
+            "type": "LABEL",
+            "value": "polygon"
+          },
+          {
+            "type": "LABEL",
+            "value": "polyline"
+          },
+          {
+            "type": "LABEL",
+            "value": "radialGradient"
+          },
+          {
+            "type": "LABEL",
+            "value": "rect"
+          },
+          {
+            "type": "LABEL",
+            "value": "set"
+          },
+          {
+            "type": "LABEL",
+            "value": "stop"
+          },
+          {
+            "type": "LABEL",
+            "value": "switch"
+          },
+          {
+            "type": "LABEL",
+            "value": "text"
+          },
+          {
+            "type": "LABEL",
+            "value": "textPath"
+          },
+          {
+            "type": "LABEL",
+            "value": "tspan"
+          },
+          {
+            "type": "LABEL",
+            "value": "use"
+          },
+          {
+            "type": "LABEL",
+            "value": "view"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ComponentClass<any, any>"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "FunctionComponent<any>",
+            "parameters": [
+              {
+                "name": "props",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "ANY"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "113b978c_1c9c_49ce_9933_6f337f0d0c48"
+    },
+    {
+      "category": "OTHERS",
+      "name": "scrollable",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "c535b84e_5dc5_459c_bda8_38c0572a4aa0"
+    },
+    {
+      "category": "STYLE_LAYOUT",
+      "name": "style",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSProperties"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "e65ed44d_de76_49ea_a804_d5ba18a9868f"
+    },
+    {
+      "category": "BEHAVIOR_STATE",
+      "name": "show",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "6d54adba_8ba1_447e_b82d_662a0f8f0ffc"
+    },
+    {
+      "category": "FORM_SPECIFIC",
+      "name": "autoFocus",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "b16f5260_3188_40e9_affc_1293445fcc37"
+    },
+    {
+      "category": "STYLE_LAYOUT",
+      "name": "className",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "046b626d_0bac_40b7_a84d_38e20a9a6979"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEnter",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement, isAppearing: boolean) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "isAppearing",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "BOOLEAN"
+                    },
+                    {
+                      "type": "BOOLEAN"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "4564eb9a_5553_49f7_8b17_e45c97898e32"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEntering",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement, isAppearing: boolean) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "isAppearing",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "BOOLEAN"
+                    },
+                    {
+                      "type": "BOOLEAN"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "2ef68b2a_7195_4aed_9f8e_72619d0addd9"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEntered",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement, isAppearing: boolean) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "isAppearing",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "BOOLEAN"
+                    },
+                    {
+                      "type": "BOOLEAN"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "d95a0a02_36dd_4465_b1bc_b6e45bd253b3"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onExit",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "cff9ae90_1ccf_4caa_9ff5_66e028b51ab0"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onExiting",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "39072528_d589_4eaf_a1ce_98e17d51ae36"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onExited",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(node: HTMLElement) => any",
+            "parameters": [
+              {
+                "name": "node",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "HTMLElement"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "c5d2a223_c68a_4a4a_8b2c_26ab0857bff5"
+    },
+    {
+      "category": "OTHERS",
+      "name": "keyboard",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "c2596d92_94f6_4d59_b7be_33a996956a53"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "container",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "NULL"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "HTMLElement"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "RefObject<HTMLElement | null>"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "() => HTMLElement | RefObject<HTMLElement | null> | null",
+            "parameters": []
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "abedc026_a857_4980_b979_b201aab8877d"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onShow",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "() => void",
+            "parameters": []
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "e3f69a6d_fac1_4cad_bba4_8170b83b5b6e"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onHide",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "() => void",
+            "parameters": []
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "f9eafe18_f39b_4210_98ab_cf10d42ab18d"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "manager",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ModalManager"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "1e0c6a5d_85c4_4190_8fd9_8061df8da177"
+    },
+    {
+      "category": "OTHERS",
+      "name": "backdrop",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "5f9b2a2b_0464_498c_b4af_8a80a1f23f2f"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onEscapeKeyDown",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(e: KeyboardEvent) => void",
+            "parameters": [
+              {
+                "name": "e",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "KeyboardEvent"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "27d95c14_b25e_4fad_98e7_9cedd7c25a17"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onBackdropClick",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(e: SyntheticEvent<Element, Event>) => void",
+            "parameters": [
+              {
+                "name": "e",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "SyntheticEvent<Element, Event>"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "4d5d6493_e0c5_4a7a_9907_19389c96e23d"
+    },
+    {
+      "category": "OTHERS",
+      "name": "runTransition",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "TransitionHandler",
+            "parameters": [
+              {
+                "name": "options",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "TransitionFunctionOptions"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "18e5182a_d8de_412c_868a_bbf2b2013f3b"
+    },
+    {
+      "category": "OTHERS",
+      "name": "runBackdropTransition",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "TransitionHandler",
+            "parameters": [
+              {
+                "name": "options",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "TransitionFunctionOptions"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "baddb823_8a10_4c01_93ae_25e644af9e25"
+    },
+    {
+      "category": "OTHERS",
+      "name": "enforceFocus",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "e78af083_5273_4b15_a18a_cf6e9a72e203"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "restoreFocus",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "bc4c3524_02ad_459f_855d_a51d718a5789"
+    },
+    {
+      "category": "OTHERS",
+      "name": "restoreFocusOptions",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "{ preventScroll: boolean; }"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "949c000b_f7cf_456c_9acb_28d4bbb409c6"
+    }
+  ],
+  "isMostUsed": true
+}

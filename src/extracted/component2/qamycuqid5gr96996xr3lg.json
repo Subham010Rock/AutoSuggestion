@@ -1,0 +1,2084 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "AvatarGroup",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiAvatarGroupProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "component",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"symbol\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"object\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"div\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"style\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"clipPath\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"filter\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"marker\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"mask\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"p\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"a\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"abbr\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"address\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"area\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"article\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"aside\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"audio\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"b\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"base\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"bdi\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"bdo\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"big\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"blockquote\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"body\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"br\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"button\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"canvas\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"caption\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"center\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"cite\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"code\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"col\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"colgroup\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"data\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"datalist\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"dd\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"del\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"details\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"dfn\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"dialog\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"dl\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"dt\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"em\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"embed\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"fieldset\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"figcaption\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"figure\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"footer\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"form\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"h1\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"h2\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"h3\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"h4\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"h5\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"h6\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"head\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"header\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"hgroup\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"hr\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"html\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"i\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"iframe\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"img\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"input\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"ins\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"kbd\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"keygen\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"label\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"legend\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"li\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"link\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"main\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"map\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"mark\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"menu\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"menuitem\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"meta\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"meter\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"nav\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"noindex\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"noscript\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"ol\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"optgroup\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"option\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"output\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"param\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"picture\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"pre\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"progress\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"q\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"rp\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"rt\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"ruby\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"s\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"samp\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"search\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"slot\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"script\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"section\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"select\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"small\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"source\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"span\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"strong\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"sub\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"summary\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"sup\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"table\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"template\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"tbody\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"td\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"textarea\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"tfoot\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"th\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"thead\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"time\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"title\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"tr\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"track\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"u\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"ul\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"var\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"video\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"wbr\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"webview\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"svg\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"animate\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"animateMotion\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"animateTransform\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"circle\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"defs\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"desc\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"ellipse\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feBlend\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feColorMatrix\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feComponentTransfer\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feComposite\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feConvolveMatrix\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feDiffuseLighting\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feDisplacementMap\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feDistantLight\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feDropShadow\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feFlood\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feFuncA\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feFuncB\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feFuncG\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feFuncR\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feGaussianBlur\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feImage\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feMerge\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feMergeNode\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feMorphology\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feOffset\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"fePointLight\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feSpecularLighting\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feSpotLight\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feTile\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"feTurbulence\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"foreignObject\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"g\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"image\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"line\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"linearGradient\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"metadata\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"mpath\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"path\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"pattern\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"polygon\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"polyline\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"radialGradient\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"rect\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"set\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"stop\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"switch\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"text\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"textPath\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"tspan\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"use\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & \"view\""
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & ComponentClass<any, any>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "C & FunctionComponent<any>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "ayl14wz08egxyzxd9us95i"
+      },
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "stle62ybugnrypvcg93klt"
+      },
+      {
+        "category": "OTHERS",
+        "name": "classes",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Partial<AvatarGroupClasses>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "7ur4k26yigusywkaiyphwd"
+      },
+      {
+        "category": "OTHERS",
+        "name": "componentsProps",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "{ additionalAvatar?: AvatarOwnProps & AvatarSlotsAndSlotProps & CommonProps & Omit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, \"className\" | ... 11 more ... | \"imgProps\"> & AvatarGroupComponentsPropsOverrides; }"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "kbnvrx1iqia354ati6ei"
+      },
+      {
+        "category": "OTHERS",
+        "name": "max",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "moa8q28ysqcc1cpqiaz57h"
+      },
+      {
+        "category": "OTHERS",
+        "name": "renderSurplus",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(surplus: number) => ReactNode"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "wdyuccpb1sfh5tl1mokawf"
+      },
+      {
+        "category": "OTHERS",
+        "name": "spacing",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "LABEL",
+              "value": "\"small\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"medium\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "d68dr1gnofwehh2wk9wnae"
+      },
+      {
+        "category": "OTHERS",
+        "name": "sx",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "SystemCssProperties<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSPseudoSelectorProps<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "vvy4k258uht35a5pb8ch7y"
+      },
+      {
+        "category": "OTHERS",
+        "name": "total",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "amezqkwd9xsnppmhidxbh"
+      },
+      {
+        "category": "OTHERS",
+        "name": "variant",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"square\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"rounded\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"circular\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "zvaycw7za1n0q2m6bohw14"
+      },
+      {
+        "category": "OTHERS",
+        "name": "slots",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Partial<AvatarGroupSlots>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "7vusvdfx18iigbvf201cue"
+      },
+      {
+        "category": "OTHERS",
+        "name": "slotProps",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "{ additionalAvatar?: AvatarOwnProps & AvatarSlotsAndSlotProps & CommonProps & Omit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, \"className\" | ... 11 more ... | \"imgProps\"> & AvatarGroupComponentsPropsOverrides; surplus?: SlotProps<...>; }"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "v3d7oyhcprd98qikq2rj4d"
+      }
+    ]
+  },
+  "_id": "qamycuqid5gr96996xr3lg",
+  "$id": "mui_AvatarGroup",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "component",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"symbol\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"object\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"div\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"style\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"clipPath\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"filter\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"marker\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"mask\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"p\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"a\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"abbr\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"address\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"area\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"article\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"aside\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"audio\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"b\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"base\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"bdi\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"bdo\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"big\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"blockquote\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"body\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"br\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"button\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"canvas\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"caption\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"center\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"cite\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"code\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"col\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"colgroup\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"data\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"datalist\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"dd\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"del\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"details\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"dfn\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"dialog\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"dl\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"dt\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"em\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"embed\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"fieldset\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"figcaption\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"figure\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"footer\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"form\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"h1\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"h2\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"h3\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"h4\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"h5\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"h6\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"head\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"header\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"hgroup\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"hr\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"html\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"i\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"iframe\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"img\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"input\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"ins\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"kbd\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"keygen\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"label\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"legend\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"li\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"link\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"main\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"map\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"mark\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"menu\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"menuitem\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"meta\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"meter\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"nav\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"noindex\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"noscript\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"ol\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"optgroup\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"option\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"output\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"param\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"picture\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"pre\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"progress\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"q\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"rp\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"rt\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"ruby\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"s\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"samp\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"search\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"slot\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"script\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"section\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"select\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"small\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"source\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"span\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"strong\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"sub\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"summary\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"sup\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"table\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"template\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"tbody\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"td\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"textarea\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"tfoot\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"th\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"thead\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"time\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"title\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"tr\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"track\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"u\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"ul\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"var\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"video\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"wbr\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"webview\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"svg\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"animate\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"animateMotion\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"animateTransform\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"circle\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"defs\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"desc\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"ellipse\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feBlend\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feColorMatrix\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feComponentTransfer\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feComposite\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feConvolveMatrix\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feDiffuseLighting\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feDisplacementMap\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feDistantLight\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feDropShadow\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feFlood\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feFuncA\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feFuncB\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feFuncG\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feFuncR\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feGaussianBlur\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feImage\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feMerge\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feMergeNode\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feMorphology\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feOffset\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"fePointLight\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feSpecularLighting\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feSpotLight\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feTile\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"feTurbulence\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"foreignObject\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"g\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"image\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"line\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"linearGradient\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"metadata\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"mpath\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"path\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"pattern\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"polygon\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"polyline\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"radialGradient\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"rect\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"set\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"stop\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"switch\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"text\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"textPath\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"tspan\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"use\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & \"view\""
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & ComponentClass<any, any>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "C & FunctionComponent<any>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "ayl14wz08egxyzxd9us95i"
+    },
+    {
+      "category": "OTHERS",
+      "name": "children",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          },
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "bigint"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "false"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "true"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Iterable<ReactNode>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ReactPortal"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Promise<AwaitedReactNode>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "stle62ybugnrypvcg93klt"
+    },
+    {
+      "category": "OTHERS",
+      "name": "classes",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Partial<AvatarGroupClasses>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "7ur4k26yigusywkaiyphwd"
+    },
+    {
+      "category": "OTHERS",
+      "name": "componentsProps",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "{ additionalAvatar?: AvatarOwnProps & AvatarSlotsAndSlotProps & CommonProps & Omit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, \"className\" | ... 11 more ... | \"imgProps\"> & AvatarGroupComponentsPropsOverrides; }"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "kbnvrx1iqia354ati6ei"
+    },
+    {
+      "category": "OTHERS",
+      "name": "max",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "moa8q28ysqcc1cpqiaz57h"
+    },
+    {
+      "category": "OTHERS",
+      "name": "renderSurplus",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "(surplus: number) => ReactNode"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "wdyuccpb1sfh5tl1mokawf"
+    },
+    {
+      "category": "OTHERS",
+      "name": "spacing",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "LABEL",
+            "value": "\"small\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"medium\""
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "d68dr1gnofwehh2wk9wnae"
+    },
+    {
+      "category": "OTHERS",
+      "name": "sx",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "SystemCssProperties<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSPseudoSelectorProps<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSSelectorObjectOrCssVariables<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "(theme: Theme) => SystemStyleObject<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "readonly (boolean | SystemStyleObject<Theme> | ((theme: Theme) => SystemStyleObject<Theme>))[]"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "vvy4k258uht35a5pb8ch7y"
+    },
+    {
+      "category": "OTHERS",
+      "name": "total",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "amezqkwd9xsnppmhidxbh"
+    },
+    {
+      "category": "OTHERS",
+      "name": "variant",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "\"square\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"rounded\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"circular\""
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "zvaycw7za1n0q2m6bohw14"
+    },
+    {
+      "category": "OTHERS",
+      "name": "slots",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Partial<AvatarGroupSlots>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "7vusvdfx18iigbvf201cue"
+    },
+    {
+      "category": "OTHERS",
+      "name": "slotProps",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "{ additionalAvatar?: AvatarOwnProps & AvatarSlotsAndSlotProps & CommonProps & Omit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, \"className\" | ... 11 more ... | \"imgProps\"> & AvatarGroupComponentsPropsOverrides; surplus?: SlotProps<...>; }"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "v3d7oyhcprd98qikq2rj4d"
+    }
+  ]
+}

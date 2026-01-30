@@ -1,0 +1,18 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "PopoverPaper",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiPopoverPaperProps"
+      }
+    ],
+    "props": []
+  },
+  "_id": "si29uklmjb0l769mptauj",
+  "$id": "mui_PopoverPaper",
+  "parentId": null,
+  "propVars": []
+}

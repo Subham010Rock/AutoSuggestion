@@ -1,0 +1,372 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "InitColorSchemeScript",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiInitColorSchemeScriptProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "defaultMode",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"light\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"system\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"dark\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "lrym2mrw9cecflb90vkbv"
+      },
+      {
+        "category": "OTHERS",
+        "name": "defaultLightColorScheme",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "ib4xdm6l3qbvwy69958f7a"
+      },
+      {
+        "category": "OTHERS",
+        "name": "defaultDarkColorScheme",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "x3b5oi2e3sfs9op4pxjj6k"
+      },
+      {
+        "category": "OTHERS",
+        "name": "colorSchemeNode",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "8m3sii7uonysxnp5ptrh"
+      },
+      {
+        "category": "OTHERS",
+        "name": "modeStorageKey",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "dlnj4trmz3i80nvjcvv714"
+      },
+      {
+        "category": "OTHERS",
+        "name": "colorSchemeStorageKey",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "rxvu95ckrp9v7cr9c90eb"
+      },
+      {
+        "category": "OTHERS",
+        "name": "attribute",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "pfmy1xzmh2klsc6dckyq2"
+      },
+      {
+        "category": "OTHERS",
+        "name": "nonce",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "1nwilb28rkxatyxlp9if7"
+      }
+    ]
+  },
+  "_id": "orxc59ykwzhkz6xw1z9an",
+  "$id": "mui_InitColorSchemeScript",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "defaultMode",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "\"light\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"system\""
+          },
+          {
+            "type": "LABEL",
+            "value": "\"dark\""
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "lrym2mrw9cecflb90vkbv"
+    },
+    {
+      "category": "OTHERS",
+      "name": "defaultLightColorScheme",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "ib4xdm6l3qbvwy69958f7a"
+    },
+    {
+      "category": "OTHERS",
+      "name": "defaultDarkColorScheme",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "x3b5oi2e3sfs9op4pxjj6k"
+    },
+    {
+      "category": "OTHERS",
+      "name": "colorSchemeNode",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "8m3sii7uonysxnp5ptrh"
+    },
+    {
+      "category": "OTHERS",
+      "name": "modeStorageKey",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "dlnj4trmz3i80nvjcvv714"
+    },
+    {
+      "category": "OTHERS",
+      "name": "colorSchemeStorageKey",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "rxvu95ckrp9v7cr9c90eb"
+    },
+    {
+      "category": "OTHERS",
+      "name": "attribute",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "pfmy1xzmh2klsc6dckyq2"
+    },
+    {
+      "category": "OTHERS",
+      "name": "nonce",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "1nwilb28rkxatyxlp9if7"
+    }
+  ]
+}

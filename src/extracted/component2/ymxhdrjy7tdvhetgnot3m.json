@@ -1,0 +1,142 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "GlobalStyles",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiGlobalStylesProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "styles",
+        "isRequired": true,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ComponentSelector"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Keyframes"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "SerializedStyles"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSPropertiesWithMultiValues"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "CSSObject & { variants?: { props: Partial<Theme> | ((props: Theme) => boolean); style: CSSObject | ((args: any) => CSSObject); }[]; }"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ArrayInterpolation<Theme>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "FunctionInterpolation<Theme>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "dsdyv85oj5e4g2wczmqmlz"
+      }
+    ]
+  },
+  "_id": "ymxhdrjy7tdvhetgnot3m",
+  "$id": "mui_GlobalStyles",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "styles",
+      "isRequired": true,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "LABEL",
+            "value": "STRING"
+          },
+          {
+            "type": "LABEL",
+            "value": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "false"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "true"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ComponentSelector"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "Keyframes"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "SerializedStyles"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSPropertiesWithMultiValues"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "CSSObject & { variants?: { props: Partial<Theme> | ((props: Theme) => boolean); style: CSSObject | ((args: any) => CSSObject); }[]; }"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "ArrayInterpolation<Theme>"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "FunctionInterpolation<Theme>"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "dsdyv85oj5e4g2wczmqmlz"
+    }
+  ]
+}

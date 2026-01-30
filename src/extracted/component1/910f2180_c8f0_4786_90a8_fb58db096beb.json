@@ -1,0 +1,550 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "TabContainer",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "TabContainerProps"
+      }
+    ],
+    "props": [
+      {
+        "category": "ANIMATIONS_TRANSITIONS",
+        "name": "transition",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ComponentClass<TransitionProps, any>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "FunctionComponent<TransitionProps>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "865d642c_d557_4ede_936e_6f1813755ecd"
+      },
+      {
+        "category": "GENERAL",
+        "name": "id",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "6725e064_546a_4557_b827_203df0673d24"
+      },
+      {
+        "category": "CONTENT_SLOTS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "dc4a3f7d_fced_4b5b_ab39_1906c346f610"
+      },
+      {
+        "category": "EVENTS",
+        "name": "onSelect",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "SelectCallback"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "6965dfb3_acdf_45ad_adac_0f60708bcec0"
+      },
+      {
+        "category": "OTHERS",
+        "name": "mountOnEnter",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "d4e697f8_908f_4a4f_b01b_33f9e86af5f2"
+      },
+      {
+        "category": "OTHERS",
+        "name": "unmountOnExit",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "837e1a13_b6cf_4f2e_9b83_cdda7461b9e1"
+      },
+      {
+        "category": "OTHERS",
+        "name": "activeKey",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "d3ea1b4c_0590_42e9_a70c_2e4ca4250536"
+      },
+      {
+        "category": "OTHERS",
+        "name": "defaultActiveKey",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "20633df8_a816_4ac4_8b04_b3fd26c7ebf0"
+      },
+      {
+        "category": "OTHERS",
+        "name": "generateChildId",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "(eventKey: EventKey, type: \"tab\" | \"pane\") => string"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "b61d4a3c_a0df_4ca7_a194_8f613b2cd4e7"
+      }
+    ]
+  },
+  "_id": "910f2180_c8f0_4786_90a8_fb58db096beb",
+  "$id": "react-bootstrap_TabContainer",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "ANIMATIONS_TRANSITIONS",
+      "name": "transition",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "865d642c_d557_4ede_936e_6f1813755ecd"
+    },
+    {
+      "category": "GENERAL",
+      "name": "id",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "6725e064_546a_4557_b827_203df0673d24"
+    },
+    {
+      "category": "CONTENT_SLOTS",
+      "name": "children",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "NULL"
+          },
+          {
+            "type": "STRING"
+          },
+          {
+            "type": "NUMBER"
+          },
+          {
+            "type": "UNKNOWN",
+            "typeAsText": "bigint"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "dc4a3f7d_fced_4b5b_ab39_1906c346f610"
+    },
+    {
+      "category": "EVENTS",
+      "name": "onSelect",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "SelectCallback",
+            "parameters": [
+              {
+                "name": "eventKey",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "NULL"
+                    },
+                    {
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "e",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "UNKNOWN",
+                      "typeAsText": "SyntheticEvent<unknown, Event>"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "6965dfb3_acdf_45ad_adac_0f60708bcec0"
+    },
+    {
+      "category": "OTHERS",
+      "name": "mountOnEnter",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "d4e697f8_908f_4a4f_b01b_33f9e86af5f2"
+    },
+    {
+      "category": "OTHERS",
+      "name": "unmountOnExit",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "837e1a13_b6cf_4f2e_9b83_cdda7461b9e1"
+    },
+    {
+      "category": "OTHERS",
+      "name": "activeKey",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          },
+          {
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "d3ea1b4c_0590_42e9_a70c_2e4ca4250536"
+    },
+    {
+      "category": "OTHERS",
+      "name": "defaultActiveKey",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          },
+          {
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "20633df8_a816_4ac4_8b04_b3fd26c7ebf0"
+    },
+    {
+      "category": "OTHERS",
+      "name": "generateChildId",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "FUNCTION",
+            "value": "(eventKey: EventKey, type: \"tab\" | \"pane\") => string",
+            "parameters": [
+              {
+                "name": "eventKey",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "STRING"
+                    },
+                    {
+                      "type": "NUMBER"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "type",
+                "schema": {
+                  "selection": "anyOf",
+                  "types": [
+                    {
+                      "type": "LABEL",
+                      "value": "tab"
+                    },
+                    {
+                      "type": "LABEL",
+                      "value": "pane"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "b61d4a3c_a0df_4ca7_a194_8f613b2cd4e7"
+    }
+  ],
+  "isMostUsed": false
+}

@@ -1,0 +1,425 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "Offcanvas",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "BsPrefixRefForwardingComponent<\"div\", OffcanvasProps> & { Body: BsPrefixRefForwardingComponent<\"div\", OffcanvasBodyProps>; Header: ForwardRefExoticComponent<...>; Title: BsPrefixRefForwardingComponent<...>; }"
+      },
+      {
+        "type": "Object",
+        "properties": [
+          {
+            "name": "Body",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "BsPrefixRefForwardingComponent<\"div\", OffcanvasBodyProps>"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Header",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "ForwardRefExoticComponent<OffcanvasHeaderProps & RefAttributes<HTMLDivElement>>"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Title",
+            "type": "REACT_COMPONENT",
+            "schema": {
+              "selection": "anyOf",
+              "types": [
+                {
+                  "type": "BsPrefixRefForwardingComponent<\"div\", OffcanvasTitleProps>"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "props": [
+      {
+        "category": "OTHERS",
+        "name": "bsPrefix",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "74023921_6bed_4c6e_976f_9bb72b77facb"
+      },
+      {
+        "category": "OTHERS",
+        "name": "as",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "As"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "nuqjtswy5tn"
+      },
+      {
+        "category": "OTHERS",
+        "name": "backdropClassName",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "70bb8313_8f72_40fa_8d2e_ef598313cde6"
+      },
+      {
+        "category": "NAVIGATION_ROUTING",
+        "name": "scroll",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "70090015_f73f_4605_864c_265e435a95b4"
+      },
+      {
+        "category": "STYLE_LAYOUT",
+        "name": "placement",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "\"top\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"bottom\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"start\""
+            },
+            {
+              "type": "LABEL",
+              "value": "\"end\""
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "e1dc0d9f_ca61_4ca0_a4a2_784d3a190b3d"
+      },
+      {
+        "category": "OTHERS",
+        "name": "responsive",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "12a0c3dc_f0d3_4166_b0a2_d0d891526c3d"
+      },
+      {
+        "category": "ADVANCED",
+        "name": "renderStaticNode",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "BOOLEAN"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "8ce94adf_d6ce_41cb_97c9_06f10aee748e"
+      },
+      {
+        "category": "OTHERS",
+        "name": "children",
+        "isRequired": false,
+        "isDeprecated": false,
+        "schema": {
+          "selection": "anyOf",
+          "types": [
+            {
+              "type": "LABEL",
+              "value": "STRING"
+            },
+            {
+              "type": "LABEL",
+              "value": "NUMBER"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "bigint"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "false"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "true"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactElement<unknown, string | JSXElementConstructor<any>>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Iterable<ReactNode>"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "ReactPortal"
+            },
+            {
+              "type": "UNKNOWN",
+              "typeAsText": "Promise<AwaitedReactNode>"
+            }
+          ]
+        },
+        "description": "",
+        "defaultValue": {
+          "type": "CUSTOM",
+          "value": ""
+        },
+        "id": "68aqwv5agkx"
+      }
+    ]
+  },
+  "_id": "42b078c0_b996_4cbc_8e3d_09d12d9d75d9",
+  "$id": "react-bootstrap_Offcanvas",
+  "parentId": null,
+  "propVars": [
+    {
+      "category": "OTHERS",
+      "name": "bsPrefix",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "74023921_6bed_4c6e_976f_9bb72b77facb"
+    },
+    {
+      "category": "OTHERS",
+      "name": "backdropClassName",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "70bb8313_8f72_40fa_8d2e_ef598313cde6"
+    },
+    {
+      "category": "NAVIGATION_ROUTING",
+      "name": "scroll",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "70090015_f73f_4605_864c_265e435a95b4"
+    },
+    {
+      "category": "STYLE_LAYOUT",
+      "name": "placement",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "LABEL",
+            "value": "top"
+          },
+          {
+            "type": "LABEL",
+            "value": "bottom"
+          },
+          {
+            "type": "LABEL",
+            "value": "start"
+          },
+          {
+            "type": "LABEL",
+            "value": "end"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "e1dc0d9f_ca61_4ca0_a4a2_784d3a190b3d"
+    },
+    {
+      "category": "OTHERS",
+      "name": "responsive",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "STRING"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "12a0c3dc_f0d3_4166_b0a2_d0d891526c3d"
+    },
+    {
+      "category": "ADVANCED",
+      "name": "renderStaticNode",
+      "isRequired": false,
+      "isDeprecated": false,
+      "schema": {
+        "selection": "anyOf",
+        "types": [
+          {
+            "type": "UNDEFINED"
+          },
+          {
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      "description": "",
+      "defaultValue": {
+        "type": "CUSTOM",
+        "value": ""
+      },
+      "id": "8ce94adf_d6ce_41cb_97c9_06f10aee748e"
+    }
+  ],
+  "isMostUsed": false
+}

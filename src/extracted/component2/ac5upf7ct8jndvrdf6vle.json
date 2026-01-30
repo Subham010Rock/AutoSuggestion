@@ -1,0 +1,18 @@
+{
+  "type": "REACT_COMPONENT",
+  "name": "PopoverRoot",
+  "description": "",
+  "schema": {
+    "selection": "anyOf",
+    "types": [
+      {
+        "type": "MuiPopoverRootProps"
+      }
+    ],
+    "props": []
+  },
+  "_id": "ac5upf7ct8jndvrdf6vle",
+  "$id": "mui_PopoverRoot",
+  "parentId": null,
+  "propVars": []
+}
