@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# Monaco Editor with Auto Type Acquisition (ATA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A browser-based code editor providing **VSCode-like intelligent autocomplete** for TypeScript and React development, powered by Monaco Editor and TypeScript's Automatic Type Acquisition.
 
-Currently, two official plugins are available:
+![Monaco Editor Screenshot](https://img.shields.io/badge/React-19-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue) ![Vite](https://img.shields.io/badge/Vite-7-purple)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Real-time Autocomplete** – Get intelligent suggestions as you type, just like VSCode
+- **Automatic Type Acquisition** – Types for npm packages (React, MUI, Chakra UI, etc.) are fetched automatically when you import them
+- **Zero Backend** – Everything runs in the browser using TypeScript's language services
+- **Multi-library Support** – Works with React Bootstrap, Material UI, Chakra UI, and any npm package with TypeScript definitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Quick Start
 
-## Expanding the ESLint configuration
+```bash
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Start development server
+npm run dev
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Technology          | Purpose                      |
+| ------------------- | ---------------------------- |
+| **React 19**        | UI Framework                 |
+| **TypeScript 5.9**  | Type Safety                  |
+| **Monaco Editor**   | Code Editor (same as VSCode) |
+| **@typescript/ata** | Automatic Type Acquisition   |
+| **Vite 7**          | Build Tool                   |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 💡 How It Works
+
+1. **Monaco Editor** – The same editor that powers VSCode runs in the browser
+2. **TypeScript Language Services** – Provides type checking and autocomplete
+3. **ATA (Automatic Type Acquisition)** – When you write `import { Button } from '@chakra-ui/react'`, ATA automatically downloads the type definitions from npm
+
+## 📁 Project Structure
+
 ```
+src/
+├── App.tsx              # Main app with ATA integration
+├── components/
+│   └── CodeEditor.tsx   # Monaco Editor wrapper
+└── utils/
+    └── ata.ts           # ATA configuration
+```
+
+## 🌐 Live Demo
+
+[View Live Demo](https://your-project.vercel.app) _(Add your deployed URL here)_
+
+## 📄 License
+
+MIT
