@@ -23,3 +23,6 @@ LSP2/
 *.njsproj
 *.sln
 *.sw?
+RESUME_PROJECT.md
+DEPLOYMENT.md
+src/extracted/
